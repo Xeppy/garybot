@@ -3,7 +3,7 @@ const bot = new Commando.Client({
     owner: '169010985573679104'
 });
 const {token, prefix} = require('./json/config.json');
-const {insults, compliments} = require('./json/arrays.json');
+const {dmCompliments, compliments} = require('./json/arrays.json');
 
 
 bot.registry
@@ -28,19 +28,20 @@ bot.on('message', message => {
 
     if (message.author.id === '141377976003592192'){
         var roll = Math.floor(Math.random() * 2) + 1;
-        var randomInsult = insults[Math.floor(Math.random() * insults.length)];
+        var randomMsg = dmCompliments[Math.floor(Math.random() * dmCompliments.length)];
         if(roll == 2){
-        message.author.send(randomInsult);
+        message.channel.send(randomMsg);
         }
     }
+    /* Compliment Someone
     if (message.author.id === '169947926309634048' ){
         var roll = Math.floor(Math.random() * 2) + 1;
         var randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
         message.reply(randomCompliment);
         /*if(roll == 2){
         message.author.send(randomCompliment);
-        }*/
-    }
+        }
+    }*/
 
         //Good Bot
         if(msg.includes('GOOD BOT')){

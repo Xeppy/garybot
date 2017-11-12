@@ -117,6 +117,24 @@ class Stats extends Command {
                 initiative = "+1",
                 proficiency = "+2"
                 break;
+                case 'zelt':
+                var
+                title = "Character Summary for Zelt Ferniere",
+                color = 0xF1C40F,
+                description = "Level 3 , Wizard Silver Dragonborn, Lawful Good",
+                strength = "13 + 1",
+                dexterity = "10 + 0",
+                constitution = "17 + 3",
+                intelligence = "15 + 2",
+                wisdom = "6 - 2",
+                charisma = "12 + 1",
+                perception = "8",
+                speed = "30",
+                armor = "10",
+                hp = "25",
+                initiative = "+0",
+                proficiency = "+2"
+                break;
             default:
                 var title = "none";
         }

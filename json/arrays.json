@@ -1,10 +1,10 @@
 {
-    "insults": [
-        "I hate you",
-        "why are you here",
-        "why do you exist",
-        "who the hell are you",
-        "cat is dead mate, just like you"
+    "dmCompliments": [
+        "You're doing great, keep going!",
+        "DMing at its finest",
+        "This campaign is getting interesting...",
+        "Ohhh, are you sure about that?",
+        "I'd rethink that if I were you, but what do I know, I just designed this whole game..."
     ],
     "compliments": [
         "You're such a cutie",
@@ -19,7 +19,6 @@
         "There's no point in versing Xeppy... you'd just win and you're wasting your time",
         "You're so talented!",
         "Everyone loves you!",
-        "<@169010985573679104> will make you a coffee"
-        
+        "@169010985573679104 will make you a coffee"
     ]
 }

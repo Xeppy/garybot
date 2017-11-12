@@ -33,7 +33,12 @@ class DiceRollCommand extends Command {
             for(var i=0; i < numberOf; i++){
             var roll = Math.floor(Math.random() * sided) + 1;
             message.reply("You rolled a " + roll);
+            if(roll == 1 && sided == 20){
+                message.reply("https://gph.is/2aYrYsE");
+            } else if (roll == 20 && sided == 20){
+                message.reply("https://mlpforums.com/uploads/post_images/img-3501641-1-tumblr_myy3s0MWYJ1ql55zvo1_500.jpg");
             }
+        }
         }
 }
 
