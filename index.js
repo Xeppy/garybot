@@ -26,13 +26,13 @@ bot.on('message', message => {
         return;
     }
 
-    if (message.author.id === '141377976003592192'){
+    /*if (message.author.id === '141377976003592192'){
         var roll = Math.floor(Math.random() * 2) + 1;
         var randomMsg = dmCompliments[Math.floor(Math.random() * dmCompliments.length)];
         if(roll == 2){
         message.channel.send(randomMsg);
         }
-    }
+    }*/
     /* Compliment Someone
     if (message.author.id === '169947926309634048' ){
         var roll = Math.floor(Math.random() * 2) + 1;
